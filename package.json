@@ -4,7 +4,8 @@
   "description": "compare the performance between position replacement algorithm and cycle leader algorithm",
   "main": "index.js",
   "scripts": {
-    "test": "node ./benchmark/shuffle1.js && node ./benchmark/shuffle2.js"
+    "start": "node ./benchmark/shuffle1.js && node ./benchmark/shuffle2.js",
+    "test": "cross-env DEBUG=shuffle2 mocha"
   },
   "keywords": [
     "Shuffle",
@@ -15,6 +16,9 @@
   "author": "gospray",
   "license": "MIT",
   "devDependencies": {
-    "benchmark": "^2.1.3"
+    "benchmark": "^2.1.3",
+    "chai": "^3.5.0",
+    "cross-env": "^3.1.4",
+    "mocha": "^3.2.0"
   }
 }

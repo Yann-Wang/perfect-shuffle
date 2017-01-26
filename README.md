@@ -10,11 +10,11 @@
 - the argument should be a Array whose length should be even.
 
 ##### performance
-- use benchmarkjs library to test.
+- use benchmarkjs library to compare the performance.
 ```shell
 cd Shuffle
 npm install
-npm test # compare the value of period property in the result object
+npm start # compare the value of period property in the result object
 ```
 - according to the test result, the performance of position replacement algorithm is better in the level of ten milliion or under the level.
 
@@ -34,4 +34,9 @@ result2 = Shuffle.shuffle2(arr2);
 console.log(result1,result2);
 ```
 
+##### test 
+```shell
+# test
+npm test
+```
 
