@@ -1,0 +1,20 @@
+{
+  "name": "perfect-shuffle",
+  "version": "1.0.0",
+  "description": "compare the performance between position replacement algorithm and cycle leader algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./benchmark/shuffle1.js && node ./benchmark/shuffle2.js"
+  },
+  "keywords": [
+    "Shuffle",
+    "position replacement",
+    "cycle leader",
+    "performance"
+  ],
+  "author": "gospray",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.3"
+  }
+}
